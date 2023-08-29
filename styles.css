@@ -2,6 +2,7 @@ body {
     max-width: 500px;
     color: #121212;
     margin: 0 auto;
+    text-align: center;
 }
 
 img {
@@ -16,14 +17,16 @@ p {
 }
 
 input {
+    display: block;
     width: 225px;
     line-height: 18px;
     
     padding: 10px 0;
     border: 3px solid #121212;
+    margin: 10px auto;
     
+    font-weight: bold;
     text-align: center;
-    font-weight: bold
 }
 
 button {
